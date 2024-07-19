@@ -1,0 +1,34 @@
+@media (min-width: 700px) {
+    .card-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card-img {
+        height: 260px;
+        width: 200px;
+    }
+    header h1 {
+        margin-left: 25%;
+    }
+    footer {
+        margin-left: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-container {
+        grid-template-columns: repeat(3,1fr);
+        .card-img {
+            height: 260px;
+            width: 200px;
+        }
+        
+    }
+    header h1 {
+        margin-left: 25%;
+        justify-content: center;
+    }
+    footer {
+        margin-left: 25%;
+        justify-content: center;
+    }
+}
